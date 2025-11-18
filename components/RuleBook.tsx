@@ -1,5 +1,4 @@
 
-
 import React, { useState } from 'react';
 import { searchRules } from '../services/geminiService';
 import Spinner from './Spinner';
@@ -23,7 +22,6 @@ const RuleBook: React.FC = () => {
     try {
       const searchResult = await searchRules(query);
       setResult(searchResult);
-    // FIX: Removed invalid arrow function syntax `=>` from the catch block.
     } catch (err) {
       setError(t('ruleBookSearchError'));
       console.error(err);

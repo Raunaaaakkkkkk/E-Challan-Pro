@@ -1,6 +1,6 @@
+
 export type Role = 'admin' | 'employee';
 export type View = 'dashboard' | 'challan' | 'search' | 'rules' | 'admin';
-// FIX: Added missing Theme type definition.
 export type Theme = 'light' | 'dark' | 'system';
 
 export interface User {

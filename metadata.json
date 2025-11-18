@@ -1,6 +1,6 @@
 {
   "name": "E-Challan Pro",
-  "description": "An advanced e-challan application for traffic police officers, featuring AI-powered offense suggestions, vehicle lookups, a searchable rulebook, and automated location logging to streamline the process of issuing traffic tickets.",
+  "description": "A professional traffic management web application featuring digital citation issuance, vehicle registry lookup, and administrative controls.",
   "requestFramePermissions": [
     "geolocation"
   ]
